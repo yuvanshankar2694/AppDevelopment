@@ -1,0 +1,38 @@
+/* Reset default styles */
+body, h1, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define the background image */
+.landing-page {
+    background-image: url('https://shorturl.at/orRY6'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Make the background cover the entire viewport height */
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Add some overlay to improve readability */
+.header-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}

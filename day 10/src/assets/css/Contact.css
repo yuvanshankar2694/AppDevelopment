@@ -1,0 +1,81 @@
+/* Contact Us Page Styles */
+.contact-us-container {
+  padding: 30px;
+}
+
+.contact-description {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Contact Information Styles */
+.contact-details {
+  margin-bottom: 30px;
+}
+
+.contact-details h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.contact-details address {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Contact Form Styles */
+.contact-form h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  font-size: 1.2rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.1rem;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Styles (Optional) */
+@media (max-width: 768px) {
+  .contact-form .form-group {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-form h2,
+  .contact-details h2 {
+    font-size: 1.5rem;
+  }
+
+  .form-control {
+    font-size: 1rem;
+  }
+
+  .btn-primary {
+    font-size: 1.1rem;
+  }
+}
